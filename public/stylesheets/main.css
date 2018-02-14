@@ -1,0 +1,29 @@
+#background-image {
+    background-image: url(https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=377e356cce015c363d123504857f8137&auto=format&fit=crop&w=1311&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height: 70vh;
+  }
+
+#caption {
+    padding-top: 10%;
+    padding-left: 55%;
+    color: white;
+}
+
+#caption h1 {
+    font-size: 5em;
+    font-weight: 700;
+}
+
+#caption p {
+    font-size: 1.5em;
+}
+
+#caption p span {
+    font-size: 1.5em;
+    color: yellow;
+}
