@@ -1,11 +1,22 @@
 #top-bar{
     height: 25px;
     background-color: green;
-    color: white;
 }
+
 #social-icons {
     float: left;
 }
+
 #top-bar-links {
     float: right;
+}
+
+#social-icons a {
+    padding-left: 15px;
+    color: white;
+}
+
+#top-bar-links a {
+    padding-right: 15px;
+    color: white;
 }
