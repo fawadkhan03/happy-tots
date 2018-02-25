@@ -20,3 +20,15 @@
     padding-right: 15px;
     color: white;
 }
+
+#home-image {
+	height: 80vh;
+	background-image: url("http://eastcolumbiapreschool.org/wp-content/uploads/2017/02/home-page-image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#caption {
+	max-width: 350px;
+	background-color: white;
+}
