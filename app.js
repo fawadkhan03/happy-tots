@@ -16,6 +16,10 @@ app.get("/locations", function(req, res){
 	res.render("locations");
 });
 
+app.get("/our-programs", function(req, res){
+	res.render("our-programs")
+})
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("The Server Has Started!");
  });
