@@ -33,6 +33,10 @@
 	background-color: white;
 }
 
+#programs .row .col-md-4 {
+	padding: 0;
+}
+
 #program-infant {
 	height: 40vh;
 	background-image: url("http://www.st-laurentacademy.com/wp-content/uploads/3-benefits-of-sign-language-for-infants.jpg");
@@ -73,6 +77,11 @@
 	background-image: url("http://stmedia.stimg.co/ffde81b081434d56b362f4f776a7902d.jpeg?w=600&h=600");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.program-caption {
+	background-color: rgba(0, 140, 90, 0.3);
+	padding: 5px 20px;
 }
 
 #bottom-bar{
