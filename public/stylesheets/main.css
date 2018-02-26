@@ -32,3 +32,19 @@
 	max-width: 350px;
 	background-color: white;
 }
+
+#bottom-bar{
+    height: 25px;
+    background-color: green;
+}
+
+#footer-copyright {
+	float: left;
+	color: white;
+}
+
+#footer-links a {
+	float: right;
+	color: white;
+	padding-left: 15px;
+}
