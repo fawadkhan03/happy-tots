@@ -1,5 +1,63 @@
 <% include ./partials/header %>
-<h1>Enrolling Your Child</h1>
-<h3>Infant - Toddler - Preschool</h3>
+<div class="jumbotron jumbotron-fluid">
+ 	<div class="container">
+		<h1 class="display-4">Enroll Your Child</h1>
+		<p class="lead">Infant • Toddler • Preschool • Kindergarten • Elementary • Middle School</p>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<h3>Step 1: Sign up for a tour and request additional information</h3>
+			<p>Visit our school: seeing is believing! Tour our facilities: see classrooms and playgrounds. Meet our staff. Understand programs, schedules, and tuition. A visit is the only way to really find out whether a school is right for you. We typically schedule tours in the mornings, so you can see the authentic Montessori experience in practice (as against seeing empty classrooms).</p>
+		</div>
+		<div class="col-md-8">
+			<form>
+				<div class="form-row">
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Your First Name *">
+					</div>
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Your Last Name *">
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Your Email *">
+					</div>
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Best Number To Call You *">
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Child's First Name *">
+					</div>
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Child's Birthdate or Due Date *">
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="col">
+						<select class="custom-select">
+  							<option selected>Select a Program:</option>
+  							<option value="1">Infant (12 weeks-18 months)</option>
+  							<option value="2">Toddler (18 months-36 months)</option>
+  							<option value="3"> Preschool/Kindergarden (3 years-6years)</option>
+						</select>
+					</div>
+					<div class="col">
+						<select class="custom-select">
+							<option selected>Choose a Location</option>
+							<option value="1">Pacific Coast Highway</option>
+							<option value="2">Normandie	</option>
+						</select>
+					</div>
+				</div>
+				<button type="button" class="btn btn-success">Contact Me To Scheduele My Tour!</button>
+			</form>
+		</div>
+	</div>
+</div>
 <% include ./partials/programs-mod %>
 <% include ./partials/footer %>
