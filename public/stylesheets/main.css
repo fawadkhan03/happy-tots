@@ -2,29 +2,6 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-#top-bar{
-    height: 25px;
-    background-color: green;
-}
-
-#social-icons {
-    float: left;
-}
-
-#top-bar-links {
-    float: right;
-}
-
-#social-icons a {
-    padding-left: 15px;
-    color: white;
-}
-
-#top-bar-links a {
-    padding-right: 15px;
-    color: white;
-}
-
 #call-us-nav {
 	font-weight: 700;
 }
