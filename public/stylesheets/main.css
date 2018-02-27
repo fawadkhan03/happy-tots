@@ -119,3 +119,14 @@ body {
 #enrollment-step {
 	max-width: 50%;
 }
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+#choose-location-text {
+	padding: 2% 0;
+	font-weight: 700;
+	font-size: 1.5em;
+}

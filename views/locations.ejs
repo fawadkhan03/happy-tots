@@ -1,3 +1,26 @@
 <% include ./partials/header %>
-<h1>Locations</h1>
+<% include ./partials/locations-mod %>
+<p class="text-center" id="choose-location-text">Choose from two great locations just minutes from each other!</p>
+<div class="container" id="map"></div>
+    <script>
+      function initMap() {
+      	var normandie = {lat: 33.793483, lng: -118.297905}
+        var pch = {lat: 33.790939, lng: -118.285353};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: pch
+        });
+        var marker = new google.maps.Marker({
+          position: pch,
+          map: map
+        });
+        var markerTwo = new google.maps.Marker({
+          position: normandie,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxnjdbslji35KD14xEY7AcxyM53C3gt4U&callback=initMap">
+    </script>
 <% include ./partials/footer %>
