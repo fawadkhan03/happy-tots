@@ -34,14 +34,14 @@ body {
 
 #caption {
 	display: inline-block;
-	width: 700px;
-	padding-left: 15%;
-	padding-top: 10%;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 40%;
+	margin-left: 10%;
+	margin-top: 10%;
 	font-size: 1.3em;
 }
 
 #caption p {
-	background-color: rgba(0, 0, 0, 0.5);
 	color: white;	
 }
 

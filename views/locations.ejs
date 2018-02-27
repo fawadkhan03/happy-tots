@@ -1,6 +1,10 @@
 <% include ./partials/header %>
-<% include ./partials/locations-mod %>
-<p class="text-center" id="choose-location-text">Choose from two great locations just minutes from each other!</p>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Our Locations</h1>
+    <p class="lead">Choose from two great locations, just minutes from each other!</p>
+  </div>
+</div>
 <div class="container" id="map"></div>
     <script>
       function initMap() {
@@ -23,4 +27,5 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxnjdbslji35KD14xEY7AcxyM53C3gt4U&callback=initMap">
     </script>
+<% include ./partials/locations-mod %>
 <% include ./partials/footer %>
