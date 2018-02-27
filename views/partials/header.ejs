@@ -3,7 +3,7 @@
 <head>
     <title>Happy Tots Montessori</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
 </head>
@@ -37,17 +37,36 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="/why-happy-tots">Why Happy Tots</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/locations">Locations</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/our-programs">Programs</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/our-programs" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Programs
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/our-programs">View All Programs</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Infant (12 weeks-18 months)</a>
+                    <a class="dropdown-item" href="#">Toddlers (18 months-36 months)</a>
+                    <a class="dropdown-item" href="#">Preschool/Kindergarden (3 years-6 years)</a>
+                    <a class="dropdown-item" href="#">Language Immersion</a>
+                    <a class="dropdown-item" href="#">Enrichment</a>
+                    <a class="dropdown-item" href="#">After School</a>
+                </div>
             </li>
-            <a href="/enroll" class="btn btn-primary">Enroll Your Child</a>
+        </ul>
+        <ul class="navbar-nav ml-auto" id="call-us-nav">
+           <li>
+                <a href="tel:1-847-555-5555" class="btn btn-success">
+                    <i class="fas fa-phone"></i>
+                    1-847-555-5555
+                </a> 
+           </li>
         </ul>
     </div>
 </nav>
