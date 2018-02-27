@@ -24,6 +24,10 @@ app.get("/enroll", function(req,res){
 	res.render("enroll");
 });
 
+app.get("/contact", function(req, res){
+	res.render("contact")
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("The Server Has Started!");
  });

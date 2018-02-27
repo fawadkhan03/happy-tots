@@ -116,6 +116,10 @@ body {
 	margin-bottom: 10px;
 }
 
+#submit-enroll-button {
+	float: right;
+}
+
 #enrollment-step {
 	max-width: 50%;
 }
