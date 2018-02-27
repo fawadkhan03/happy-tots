@@ -103,3 +103,7 @@
 .form-row {
 	margin-bottom: 10px;
 }
+
+#enrollment-step {
+	max-width: 50%;
+}
