@@ -116,6 +116,19 @@ body {
 }
 
 #footer {
+	margin-top: 3%;
+	padding-top: 3%;
 	background-color: red;
-	height: 100px;
+	height: 250px;
+	color: white;
+}
+
+#footer ul {
+	list-style: none;
+}
+
+#footer-two {
+	background-color: blue;
+	text-align: center;
+	color: white;
 }
