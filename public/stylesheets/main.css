@@ -27,6 +27,7 @@ body {
 
 #programs .row .col-md-4 {
 	padding: 0;
+	border: 15px solid white;
 }
 
 #program-infant {
@@ -72,8 +73,9 @@ body {
 }
 
 .program-caption {
-	background-color: rgba(0, 140, 90, 0.3);
+	background-color: rgba(15, 35, 100, 0.3);
 	padding: 5px 20px;
+	color: white;
 }
 
 #bottom-bar{
