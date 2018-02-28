@@ -7,7 +7,7 @@ body {
 }
 
 #home-image {
-	height: 80vh;
+	height: 70vh;
 	background-image: url("http://eastcolumbiapreschool.org/wp-content/uploads/2017/02/home-page-image.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -15,15 +15,14 @@ body {
 
 #caption {
 	display: inline-block;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 50, 0.4);
+	border-radius: 15px;
 	width: 40%;
+	padding: 1.5%;
 	margin-left: 10%;
-	margin-top: 10%;
+	margin-top: 8%;
 	font-size: 1.3em;
-}
-
-#caption p {
-	color: white;	
+	color: white;
 }
 
 #programs .row .col-md-4 {
