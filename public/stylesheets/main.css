@@ -78,6 +78,10 @@ body {
 	color: white;
 }
 
+#goals .row {
+	margin-top: 20px;
+}
+
 #bottom-bar{
     height: 25px;
     background-color: green;
