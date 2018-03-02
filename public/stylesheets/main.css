@@ -13,11 +13,14 @@ body {
 	display: inline-block;
 	background-color: rgba(0, 0, 50, 0.4);
 	border-radius: 15px;
-	width: 40%;
+	width: 48vw;
+	min-width: 350px;
+	max-height: 60vh;
+	/*width: 40%;*/
 	padding: 1.5%;
 	margin-left: 10%;
 	margin-top: 8%;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	color: white;
 }
 
