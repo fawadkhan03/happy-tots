@@ -2,26 +2,8 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-#home-image {
-	height: 150%;
-	max-height: 700px;
-	background-image: url("http://eastcolumbiapreschool.org/wp-content/uploads/2017/02/home-page-image.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-#caption {
-	display: inline-block;
-	background-color: rgba(0, 0, 50, 0.4);
-	border-radius: 15px;
-	width: 48vw;
-	min-width: 350px;
-	/*width: 40%;*/
-	padding: 1.5%;
-	margin-left: 10%;
-	margin-top: 8%;
-	font-size: 1.1em;
-	color: white;
+.d-block {
+	max-height: 90vh;
 }
 
 #programs .row .col-md-4 {
