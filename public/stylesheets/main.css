@@ -108,6 +108,10 @@ body {
 	padding: 1% 5%;
 }
 
+#call-us-title-footer {
+	padding-top: 25px; 
+}
+
 #bottom-footer {
 	background-color: rgb(15, 35, 100);
 	color: white;
