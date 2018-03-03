@@ -28,6 +28,10 @@ app.get("/contact", function(req, res){
 	res.render("contact")
 });
 
+app.get("/reviews", function(req, res){
+	res.render("reviews")
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("The Server Has Started!");
  });
