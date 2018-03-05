@@ -17,7 +17,7 @@ app.get("/locations", function(req, res){
 });
 
 app.get("/our-programs", function(req, res){
-	res.render("our-programs")
+	res.render("programs/our-programs")
 })
 
 app.get("/enroll", function(req,res){
