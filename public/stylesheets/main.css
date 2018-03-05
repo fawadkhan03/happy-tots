@@ -6,7 +6,7 @@ body {
 	max-height: 90vh;
 }
 
-#programs .row .col-md-4 {
+#programs .row .col-md-3 {
 	padding: 0;
 	border: 15px solid white;
 }
@@ -32,23 +32,37 @@ body {
 	background-size: cover;
 }
 
-#program-language {
+#program-tk {
 	height: 40vh;
 	background-image: url("https://bloximages.newyork1.vip.townnews.com/gwinnettdailypost.com/content/tncms/assets/v3/editorial/8/56/856b5fe7-70ae-538d-a4a7-6339c983a936/57aa39e43960e.image.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-#program-enrichment {
+#program-kindergarten {
 	height: 40vh;
 	background-image: url("https://germanschoolchicago.com/wp-content/uploads/2017/06/farm-field-trip.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-#program-after-school {
+#program-field-trips {
 	height: 40vh;
 	background-image: url("http://stmedia.stimg.co/ffde81b081434d56b362f4f776a7902d.jpeg?w=600&h=600");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#program-language {
+	height: 40vh;
+	background-image: url("https://www.cadence-education.com/rogys/wp-content/uploads/sites/38/2016/05/Toddlers.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#program-summer {
+	height: 40vh;
+	background-image: url("http://www.st-laurentacademy.com/wp-content/uploads/3-benefits-of-sign-language-for-infants.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
