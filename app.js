@@ -64,6 +64,10 @@ app.get("/reviews", function(req, res){
 	res.render("reviews")
 });
 
+app.get("/careers", function(req, res){
+	res.render("careers")
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("The Server Has Started!");
  });
