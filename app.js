@@ -42,7 +42,35 @@ app.post("/send", function(req, res){
 			<li>Program: $(req.body.program)</li>
 			<li>Location: $(req.body.location)</li>
 		</ul>
-	`;$(
+	`;
+	// create reusable transporter object using the default SMTP transport
+    let transporter = nodemailer.createTransport({
+        host: 'smtp.gmail.com',
+        port: 587,
+        secure: false, // true for 465, false for other ports
+        auth: {
+            user: "fawadkhan03@gmail.com", // generated ethereal user
+            pass: "Recovery101!" // generated ethereal password
+        }
+    });
+    // setup email data with unicode symbols
+    let mailOptions = {
+        from: '"Node Mailer Contact" <fawadkhan03@gmail.com>', // sender address
+        to: 'fawadkhan03@gmail.com', // list of receivers
+        subject: 'New Enroll Request', // Subject line
+        text: 'Hello world?', // plain text body
+        html: output // html body
+    };
+
+    // send mail with defined transport object
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            return console.log(error);
+        }
+        console.log('Message sent: %s', info.messageId);
+        console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+
+    });
 })
 
 app.get("/contact", function(req, res){
