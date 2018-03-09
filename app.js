@@ -28,6 +28,10 @@ app.get("/enroll", function(req,res){
 	res.render("enroll");
 });
 
+app.post("/send", function(req, res){
+	console.log(req.body);
+})
+
 app.get("/contact", function(req, res){
 	res.render("contact")
 });

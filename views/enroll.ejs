@@ -15,31 +15,31 @@
 			<form method="POST" action="send">
 				<div class="form-row">
 					<div class="col">
-						<input type="text" class="form-control" placeholder="Your First Name *">
+						<input type="text" class="form-control" name="firstName" placeholder="Your First Name *">
 					</div>
 					<div class="col">
-						<input type="text" class="form-control" placeholder="Your Last Name *">
-					</div>
-				</div>
-				<div class="form-row">
-					<div class="col">
-						<input type="text" class="form-control" placeholder="Your Email *">
-					</div>
-					<div class="col">
-						<input type="text" class="form-control" placeholder="Best Number To Call You *">
+						<input type="text" class="form-control" name="lastName" placeholder="Your Last Name *">
 					</div>
 				</div>
 				<div class="form-row">
 					<div class="col">
-						<input type="text" class="form-control" placeholder="Child's First Name *">
+						<input type="text" class="form-control" name="email" placeholder="Your Email *">
 					</div>
 					<div class="col">
-						<input type="text" class="form-control" placeholder="Child's Birthdate or Due Date *">
+						<input type="text" class="form-control" name="phone" placeholder="Best Number To Call You *">
 					</div>
 				</div>
 				<div class="form-row">
 					<div class="col">
-						<select class="custom-select">
+						<input type="text" class="form-control" name="childsName" placeholder="Child's First Name *">
+					</div>
+					<div class="col">
+						<input type="text" class="form-control" name="childBirthday" placeholder="Child's Birthdate or Due Date *">
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="col">
+						<select name="program" class="custom-select">
   							<option selected>Select a Program:</option>
   							<option value="1">Infant (12 weeks-18 months)</option>
   							<option value="2">Toddler (18 months-36 months)</option>
@@ -47,7 +47,7 @@
 						</select>
 					</div>
 					<div class="col">
-						<select class="custom-select">
+						<select name="location" class="custom-select">
 							<option selected>Choose a Location</option>
 							<option value="1">Not Sure Yet</option>
 							<option value="2">Pacific Coast Highway</option>
@@ -58,7 +58,7 @@
 				<button type="submit" class="btn btn-success">Contact Me To Scheduele My Tour!</button>
 				<!-- <button type="submit" class="btn btn-success" id="submit-enroll-button" data-toggle="modal" data-target="#enroll-form-modal">Contact Me To Scheduele My Tour!</button> -->
 			</form>
-			<<!-- % include ./modals/enrollformmodal %> -->
+			<!-- % include ./modals/enrollformmodal %> -->
 		</div>
 	</div>
 </div>
