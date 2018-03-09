@@ -12,7 +12,7 @@
 			<p>Visit our school: seeing is believing! Tour our facilities: see classrooms and playgrounds. Meet our staff. Understand programs, schedules, and tuition. A visit is the only way to really find out whether a school is right for you. We typically schedule tours in the mornings, so you can see the authentic Montessori experience in practice (as against seeing empty classrooms).</p>
 		</div>
 		<div class="col-md-7">
-			<form>
+			<form method="POST" action="send">
 				<div class="form-row">
 					<div class="col">
 						<input type="text" class="form-control" placeholder="Your First Name *">
@@ -55,9 +55,10 @@
 						</select>
 					</div>
 				</div>
-				<button type="button" class="btn btn-success" id="submit-enroll-button" data-toggle="modal" data-target="#enroll-form-modal">Contact Me To Scheduele My Tour!</button>
+				<button type="submit" class="btn btn-success">Contact Me To Scheduele My Tour!</button>
+				<!-- <button type="submit" class="btn btn-success" id="submit-enroll-button" data-toggle="modal" data-target="#enroll-form-modal">Contact Me To Scheduele My Tour!</button> -->
 			</form>
-			<% include ./modals/enrollformmodal %>
+			<<!-- % include ./modals/enrollformmodal %> -->
 		</div>
 	</div>
 </div>
