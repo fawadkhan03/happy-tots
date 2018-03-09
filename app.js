@@ -29,7 +29,20 @@ app.get("/enroll", function(req,res){
 });
 
 app.post("/send", function(req, res){
-	console.log(req.body);
+	var output = `
+		<p>You have a new enroll request</p>
+		<h3>Contact Details</h3>
+		<ul>
+			<li>First Name: $(req.body.firstName)</li>
+			<li>Last Name: $(req.body.lastName)</li>
+			<li>Email: $(req.body.email)</li>
+			<li>Phone: $(req.body.phone)</li>
+			<li>Childs Name: $(req.body.childsName)</li>
+			<li>Child Birthday: $(req.body.childBirthday)</li>
+			<li>Program: $(req.body.program)</li>
+			<li>Location: $(req.body.location)</li>
+		</ul>
+	`;$(
 })
 
 app.get("/contact", function(req, res){
