@@ -33,14 +33,14 @@ app.post("/send", function(req, res){
 		<p>You have a new enroll request</p>
 		<h3>Contact Details</h3>
 		<ul>
-			<li>First Name: $(req.body.firstName)</li>
-			<li>Last Name: $(req.body.lastName)</li>
-			<li>Email: $(req.body.email)</li>
-			<li>Phone: $(req.body.phone)</li>
-			<li>Childs Name: $(req.body.childsName)</li>
-			<li>Child Birthday: $(req.body.childBirthday)</li>
-			<li>Program: $(req.body.program)</li>
-			<li>Location: $(req.body.location)</li>
+			<li>First Name: ${req.body.firstName}</li>
+			<li>Last Name: ${req.body.lastName}</li>
+			<li>Email: ${req.body.email}</li>
+			<li>Phone: ${req.body.phone}</li>
+			<li>Childs Name: ${req.body.childsName}</li>
+			<li>Child Birthday: ${req.body.childBirthday}</li>
+			<li>Program: ${req.body.program}</li>
+			<li>Location: ${req.body.location}</li>
 		</ul>
 	`;
 	// create reusable transporter object using the default SMTP transport
