@@ -38,7 +38,7 @@ app.post("/send", function(req, res){
 			<li>Email: ${req.body.email}</li>
 			<li>Phone: ${req.body.phone}</li>
 			<li>Childs Name: ${req.body.childsName}</li>
-			<li>Child Birthday: ${req.body.childBirthday}</li>
+			<li>Child Birthday: ${req.body.childsAge}</li>
 			<li>Program: ${req.body.program}</li>
 			<li>Location: ${req.body.location}</li>
 		</ul>
